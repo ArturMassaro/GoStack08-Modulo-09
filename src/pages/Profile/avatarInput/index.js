@@ -48,7 +48,7 @@ export default function AvatarInput() {
         <input
           type="file"
           id="avatar"
-          aceept="image/*"
+          accept="image/*"
           data-file={file}
           onChange={handleChange}
           ref={ref}
